@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:src="@drawable/return_top_blank" />
+        >
+
+    <LinearLayout
+        android:id="@+id/ll_num"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_top_num"
+            android:layout_width="46dp"
+            android:layout_height="20dp"
+            android:background="#0000"
+            android:gravity="center_horizontal|bottom"
+            android:text="25"
+            android:textColor="#000000"
+            android:textSize="11dp" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="0.8dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tv_bottom_num"
+            android:layout_width="46dp"
+            android:layout_height="20dp"
+            android:background="#0000"
+            android:gravity="center_horizontal|top"
+            android:text="255"
+            android:textColor="#000000"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/return_top_icon" />
+
+</RelativeLayout>
